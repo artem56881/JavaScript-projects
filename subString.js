@@ -22,20 +22,6 @@ function searchSubstring(str, subStr) {
     return hash;
   }
   
-  const readline = require('readline');
-
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
-  let firstString;
-  let subString;
-
-  rl.question('Введите первую строку: ', (firstString) => {
-    firstString = input;
-    rl.question('Введите вторую строку: ', (subString) => {
-        subString = input;
-      rl.close();
-    });
-  });
-  console.log(searchSubstring(firstString, subString));
+let firstString = "arbracadabra";
+let subString = "bra";
+console.log(searchSubstring(firstString, subString));
