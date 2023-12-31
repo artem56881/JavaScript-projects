@@ -1,2 +1,1 @@
-# JavaScript-projects
-javascript scripts
+subString.js ищет подстроку в строке используя хэш, subStringBruteForce.js ищет подстроку в строке используя алгоритм грубой силы
